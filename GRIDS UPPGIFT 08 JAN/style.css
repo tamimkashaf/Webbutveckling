@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+section{
+    background: pink;
+    padding: 10px;
+    margin: 3px;
+    min-height: 150px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-areas: 
+        "musa1 musa2"
+        "musa1 musa3"
+        "musa4 musa5"
+    ;
+}
+
+#heat{
+    grid-area: musa1;
+}
+
+#suspects{
+    grid-area: musa2;
+}
+
+#inside{
+    grid-area: musa3;
+}
+
+#rif{
+    grid-area: musa4;
+}
+
+#bankjob{
+    grid-area: musa5;
+}
