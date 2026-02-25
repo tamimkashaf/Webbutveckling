@@ -1,0 +1,75 @@
+@charset "UTF-8"; 
+
+:root{
+    font-size: 16px;
+    --bg--light: white;
+    --primary-link: orange;
+    --hover-link: yellow;
+    --bg-dark: #90D5FF;
+    --lightheader: black;
+    --lighttext: #BE5103;
+}
+
+body{
+    margin: 0;
+    background: var(--bg--light);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: #333;
+    color: var(--primary-link);
+}
+
+nav p{
+    flex: 1;
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif, Cambria, Cochin, Georgia, Times, serif;
+    color: white;
+    font-size: 1rem;
+    font: 1rem bold;
+    font-weight: bold;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1rem;
+    color: var(--primary-link);
+    text-decoration: none;
+    font-family: Roboto, verdana, sans-serif;
+}
+
+nav a:hover{
+    color: var(--hover-link);
+}
+
+section{
+    height: 60vh;
+    padding: 4%;
+    border: 6rem solid var(--bg--light);
+    background: var(--bg-dark);
+    border-radius: 120px;
+}
+
+h2{
+    font: 2rem 'Courier New', Courier, monospace;
+    color: var(--lightheader);
+    font-weight: bold;
+}
+
+section p{
+    /* font: 1.5rem arial, verdana, sans-serif; */
+    font-family: "Shadows Into Light", cursive, arial;
+    color: var(--lighttext);
+}
+
+@media (max-width: 1000px){
+    :root{
+
+    }
+}
