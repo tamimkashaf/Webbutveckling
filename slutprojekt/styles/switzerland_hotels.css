@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
-    
-}
-
 body{
     width: 100%;
     margin: 0;
@@ -28,4 +24,21 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 15px; 
+  }
+
+  nav a {
+    display: block;
+    margin: 15px 0;
+    font-size: 20px; 
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
