@@ -58,7 +58,6 @@ nav a:hover {
 .afcard img, .indocard img, .switzcard img {
     width: 100%;
     height: 150px;
-    object-fit: cover; 
     border-radius: 5px;
 }
 
@@ -102,7 +101,7 @@ footer a:hover {
     color: #120a8f;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     nav {
         padding: 15px 10px;
         gap: 10px 15px; 
