@@ -36,9 +36,12 @@ nav a:hover {
 }
 
 .main {
+    /*display: block;*/
+    /*justify-content: center;*/
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
+    align-items: center;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/ 
     gap: 30px;
     padding: 40px 20px; 
 }
@@ -50,7 +53,6 @@ nav a:hover {
     width: 100%;  
     max-width: 300px;  
     text-align: center;
-    box-sizing: border-box; 
 }
 
 .afcard img, .indocard img, .switzcard img {
