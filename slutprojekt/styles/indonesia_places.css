@@ -29,3 +29,20 @@ nav a:hover{
 .nasigoreng{
     margin-top: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 15px; 
+  }
+
+  nav a {
+    display: block;
+    margin: 15px 0;
+    font-size: 20px; 
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

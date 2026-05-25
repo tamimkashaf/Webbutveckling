@@ -42,7 +42,7 @@ nav a:hover{
     font-size: 20px;
 } 
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     nav {
         padding: 15px 10px;
         gap: 10px 15px;
@@ -70,4 +70,21 @@ nav a:hover{
     .parkstarhotel p {
         font-size: 16px;
     }
+}*/
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 15px; 
+  }
+
+  nav a {
+    display: block;
+    margin: 15px 0;
+    font-size: 20px; 
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
