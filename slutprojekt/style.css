@@ -36,14 +36,10 @@ nav a:hover {
 }
 
 .main {
-    /*display: block;*/
-    /*justify-content: center;*/
+    justify-content: center;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    /*flex-wrap: wrap;*/ 
     gap: 30px;
-    padding: 40px 20px; 
+    padding: 50px; 
 }
 
 .afcard, .indocard, .switzcard {
@@ -66,7 +62,6 @@ nav a:hover {
     color: white;
 }
 
-/* Shared Card Links */
 .afcard a, .indocard a, .switzcard a {
     display: block;
     margin: 10px 0;
@@ -114,5 +109,8 @@ footer a:hover {
     .main {
         padding: 20px 10px; 
         gap: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 }
